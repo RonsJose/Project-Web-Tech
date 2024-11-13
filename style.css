@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    width: 100%;
+    margin: auto;
+}
+
+.clearfix::after{
+    clear:both;
+    display: block;
+    content:"";
+}
+
+#Top_Bar{
+    width: 100%;
+    min-height: 50px;
+    background-color: white; 
+    line-height: 50px;
+}
+
+#Nav{
+    background-color: lightgray;
+    min-height: 40px;
+    line-height: 40px;
+}
