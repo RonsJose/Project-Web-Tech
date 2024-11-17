@@ -20,6 +20,8 @@
     background-color: #dbb092;
     min-height: 75px;
     line-height: 75px;
+    position:-webkit-sticky;
+    position: sticky;
 }
 
 #Nav a{
@@ -42,6 +44,12 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+}
+
+#Creeper{
+    float: right;
+    margin-right: 15px;
+    margin-top: 12px;
 }
 
 #Banner{
@@ -74,3 +82,28 @@
     cursor: pointer;
     transition: all 0.3s ease; 
 }
+
+#Description_Banner{
+    background-color:#7E7E7E;
+    min-height: 40px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    transition: all 1s ease;
+}
+
+#Description_Image{
+    margin-right: 40px;
+}
+
+#Description_Text{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-style: italic;
+    font-weight: 700;
+}
+
+
