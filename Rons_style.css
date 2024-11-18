@@ -16,12 +16,13 @@
     content:"";
 }
 
-#Nav{
+#Nav{ 
     background-color: #dbb092;
     min-height: 75px;
     line-height: 75px;
-    position:-webkit-sticky;
     position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 #Nav a{
@@ -80,7 +81,7 @@
     font-size: 18px;  
     box-shadow: 0px 4px 5px rgb(0, 0, 0); 
     cursor: pointer;
-    transition: all 0.3s ease; 
+    transition: all 0.5s ease; 
 }
 
 #Description_Banner{
@@ -106,4 +107,41 @@
     font-weight: 700;
 }
 
+#Types{
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+#Types_Text{
+    margin-top: 100px;
+    float: left;
+    max-width: 500px;
+}
+
+#Types_Text h1{
+    margin-bottom: 50px;
+}
+
+#Types_Button{
+    background-color: black;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.5s ease; 
+    font-size: 18px; 
+    border: none;
+    margin-top: 50px;
+}
+
+.Type{
+float: right;
+margin-right: 10px;
+}
+
+.Type img{
+    width: 300px;
+}
 
