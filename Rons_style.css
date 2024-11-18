@@ -29,7 +29,6 @@
     text-decoration: none;
     color: black;
     padding: 10px;
-    cursor: pointer;
 }
 
 #Menu{
@@ -45,6 +44,10 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+}
+
+#Minecraft_Title a{
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #Creeper{
@@ -145,3 +148,15 @@ margin-right: 10px;
     width: 300px;
 }
 
+#Footer{
+    background-color: #dbb092;
+    min-height: 75px;
+    line-height: 75px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+#Footer a{
+    text-decoration: none;
+    color: black;
+}
