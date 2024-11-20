@@ -84,7 +84,11 @@
     font-size: 18px;  
     box-shadow: 0px 4px 5px rgb(0, 0, 0); 
     cursor: pointer;
-    transition: all 0.5s ease; 
+    transition: transform 0.3s 0.3s; 
+}
+
+#Banner_Button:hover{
+transform: translateY(-10px);
 }
 
 #Description_Banner{
@@ -137,6 +141,11 @@
     font-size: 18px; 
     border: none;
     margin-top: 50px;
+    transition: transform .3s .3s;
+}
+
+#Types_Button:hover{
+    transform: translateY(-10px);
 }
 
 .Type{
@@ -165,6 +174,7 @@ position: relative;
     border: none;
     visibility: hidden;
     color: white;
+    transition: visibility 0.1s 0.1s;
 }
 
 #Dungeons_Button{
@@ -180,6 +190,7 @@ position: relative;
     border: none;
     visibility: hidden;
     color: white;
+    transition: visibility 0.1s 0.1s;
 }
 
 #Legends_Button{
@@ -195,6 +206,7 @@ position: relative;
     border: none;
     visibility: hidden;
     color: white;
+    transition: visibility 0.1s 0.1s;
 }
 
 .Types_Image:hover #JavaBedrock_Button{
