@@ -148,11 +148,73 @@ margin-right: 10px;
     width: 300px;
 }
 
+.Types_Image{
+position: relative;
+}
+
+#JavaBedrock_Button{
+    position: absolute;
+    bottom: 5%; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    visibility: hidden;
+    color: white;
+}
+
+#Dungeons_Button{
+    position: absolute;
+    bottom: 5%; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    visibility: hidden;
+    color: white;
+}
+
+#Legends_Button{
+    position: absolute;
+    bottom: 5%; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    visibility: hidden;
+    color: white;
+}
+
+.Types_Image:hover #JavaBedrock_Button{
+    visibility: visible;
+}
+
+.Types_Image:hover #Dungeons_Button{
+    visibility: visible;
+}
+
+.Types_Image:hover #Legends_Button{
+    visibility: visible;
+}
+    
+
 #Footer{
     background-color: #dbb092;
     min-height: 75px;
     line-height: 75px;
-    margin-top: 10px;
+    margin-top: 50px;
     padding-left: 10px;
 }
 
