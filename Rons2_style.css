@@ -90,6 +90,7 @@ flex: 1;
     margin: auto;
     display: flex;
     justify-content: center;
+    transition: transform 0.3s 0.3s;
 }    
 
 #Selection a{
@@ -106,6 +107,10 @@ flex: 1;
 .type{
 text-align: center;
 margin: 20px;
+}
+
+.type:hover{
+    transform: translateY(-10px);
 }
 
 #Footer{

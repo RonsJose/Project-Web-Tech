@@ -6,6 +6,7 @@
     <title>Minecraft</title>
     <link rel="icon" href="/Images/Grass_Block.png">
     <link rel="stylesheet" href="/Rons_style.css">
+    <script src="Rons_script.js"></script>
 </head>
 
 <body>
@@ -70,7 +71,7 @@
             <div class="Type">
                 <div class="Types_Image">
                     <img src="/Images/Java_Bedrock.jpeg">
-                    <button id="JavaBedrock_Button">Quick View</button>
+                    <button id="JavaBedrock_Button" onclick="openPopUpJavaBedrock()">Quick View</button>
                 </div>
                 <h4>Minecraft Java & Bedrock Edition</h4>
                 <p>€29.99</p>
@@ -79,7 +80,7 @@
             <div class="Type">
                 <div class="Types_Image">
                     <img src="/Images/Minecraft_Dungeons.jpeg">
-                    <button id="Dungeons_Button">Quick View</button>
+                    <button id="Dungeons_Button" onclick="openPopUpDungeons()">Quick View</button>
                 </div>
                 <h4>Minecraft Dungeons</h4>
                 <p>€19.99</p>
@@ -88,7 +89,7 @@
             <div class="Type">
                 <div class="Types_Image">
                     <img src="/Images/Minecraft_Legends.jpeg">
-                    <button id="Legends_Button">Quick View</button>
+                    <button id="Legends_Button" onclick="openPopUpLegends()">Quick View</button>
                 </div>
                 <h4>Minecraft Legends</h4>
                 <p>€39.99</p>
@@ -96,6 +97,47 @@
 
             
 
+        </div>
+
+        <div id="PopUpLegends">
+            <button id="PopUpLegends_Button" onclick="closePopUpLegends()">X</button>
+           
+            <div id="PopUpLegends_Text">
+                <img src="/Images/Minecraft_Legends.jpeg">
+                <h1>Minecraft <br> Legends</h1>
+                <p>€39.99</p>
+                <p>Minecraft Legends is the new action strategy game <br> we made in partnership with Blackbird Interactive <br> where you play as the brave hero who unites the <br> inhabitants of the Overworld to fight off a devastating <br> piglin invasion.</p>
+            </div>
+
+            <button id="PopUpLegends_Buy" onclick="location.href='https://www.minecraft.net/en-us/about-legends '">Buy Now</button>
+            <a href="#">View Full Page</a>
+        </div>
+
+        <div id="PopUpDungeons">
+            <button id="PopUpDungeons_Button" onclick="closePopUpDungeons()">X</button>
+
+            <div id="PopUpDungeons_Text">
+                <img src="/Images/Minecraft_Dungeons.jpeg">
+                <h1>Minecraft<br>Dungeons</h1>
+                <p>€19.99</p>
+                <p>Fight your way through an all-new action-adventure <br> game, inspired by classic dungeon crawlers and set <br> in the Minecraft universe! Brave the dungeons alone, <br> or team up with friends! </p>
+            </div>
+
+            <button id="PopUpDungeons_Buy" onclick="location.href='https://www.minecraft.net/en-us/about-dungeons'">Buy Now</button>
+            <a href="#">View Full Page</a>
+        </div>
+
+        <div id="PopUpJavaBedrock">
+            <button id="PopUpJavaBedrock_Button" onclick="closePopUpJavaBedrock()">X</button>
+
+            <div id="PopUpJavaBedrock_Text">
+                <img src="/Images/Java_Bedrock.jpeg">
+                <h1>Minecract<br>Java and Bedrock</h1>
+                <p>€29.99</p>
+                <p>Create, explore, survive, repeat. Get Minecraft: <br> Java Edition and Bedrock Edition for PC as a <br> package deal. You can easily switch between games <br> using the unified Minecraft launcher and cross-play <br> with any current edition of Minecraft.</p>
+            </div>
+            <button id="PopUpJavaBedrock_Buy" onclick="location.href='https://www.minecraft.net/en-us/store/minecraft-java-bedrock-edition-pc'">Buy Now</button>
+            <a href="#">View Full Page</a>
         </div>
 
         <div id="Footer">
