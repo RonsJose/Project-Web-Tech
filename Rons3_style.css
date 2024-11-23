@@ -16,6 +16,10 @@
     content:"";
 }
 
+body{
+    overflow-x: hidden;
+}
+
 #Nav{ 
     background-color: #dbb092;
     min-height: 75px;
