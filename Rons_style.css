@@ -6,7 +6,7 @@
 }
 
 #wrapper{
-    width: 95%;
+    width: 100%;
     margin: auto;
 }
 
@@ -15,3 +15,483 @@
     display: block;
     content:"";
 }
+
+#Nav{ 
+    background-color: #dbb092;
+    min-height: 75px;
+    line-height: 75px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+#Nav a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+#Menu{
+    float: left;
+}
+
+#Minecraft_Title{
+    display: flex;
+    text-align: center;
+    font-size: 35px; 
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#Minecraft_Title a{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#Creeper{
+    float: right;
+    margin-right: 15px;
+    margin-top: 12px;
+}
+
+#Banner{
+    background-image: url(/Images/Minecraft_Banner.jpg);
+    background-size: cover;
+    background-position:center;
+    min-height: 600px;
+    align-items: center;
+}
+
+#Banner_Text{
+    color: white;
+    max-width: 700px;
+    position: absolute;
+    top: 20%; 
+    left: .5%; 
+    font-size: 35px; 
+    text-align: center; 
+    text-shadow: 2px 2px 2px rgb(0, 0, 0); 
+}
+
+#Banner_Button{
+    margin-top: 20px; 
+    padding: 15px 30px; 
+    background-color: rgba(255, 255, 255, 0.9);
+    border: none; 
+    font-size: 18px;  
+    box-shadow: 0px 4px 5px rgb(0, 0, 0); 
+    cursor: pointer;
+    transition: transform 0.3s 0.3s; 
+}
+
+#Banner_Button:hover{
+transform: translateY(-10px);
+}
+
+#Description_Banner{
+    background-color:#7E7E7E;
+    min-height: 40px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    transition: all 1s ease;
+}
+
+#Description_Image{
+    margin-right: 40px;
+}
+
+#Description_Text{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-style: italic;
+    font-weight: 700;
+}
+
+#Types{
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+#Types_Text{
+    margin-top: 100px;
+    float: left;
+    max-width: 500px;
+}
+
+#Types_Text h1{
+    margin-bottom: 50px;
+}
+
+#Types_Button{
+    background-color: black;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 18px; 
+    border: none;
+    margin-top: 50px;
+    transition: transform .3s .3s;
+}
+
+#Types_Button:hover{
+    transform: translateY(-10px);
+}
+
+.Type{
+float: right;
+margin-right: 10px;
+}
+
+.Type img{
+    width: 300px;
+}
+
+.Types_Image{
+position: relative;
+}
+
+#JavaBedrock_Button{
+    position: absolute;
+    bottom: 5%; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    visibility: hidden;
+    color: white;
+    transition: visibility 0.1s 0.1s;
+}
+
+#Dungeons_Button{
+    position: absolute;
+    bottom: 5%; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    visibility: hidden;
+    color: white;
+    transition: visibility 0.1s 0.1s;
+}
+
+#Legends_Button{
+    position: absolute;
+    bottom: 5%; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    visibility: hidden;
+    color: white;
+    transition: visibility 0.1s 0.1s;
+}
+
+.Types_Image:hover #JavaBedrock_Button{
+    visibility: visible;
+}
+
+.Types_Image:hover #Dungeons_Button{
+    visibility: visible;
+}
+
+.Types_Image:hover #Legends_Button{
+    visibility: visible;
+}
+    
+#PopUpLegends{
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1001;
+    justify-content: center;
+}
+
+#PopUpLegends_Text{
+    background-color: green;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 70%;
+    color: white;
+}
+
+#PopUpLegends_Text h1{
+    position: relative;
+    top: -15%;
+    left: 5%;
+}
+
+#PopUpLegends_Text p{
+    position: relative;
+    top: -14%;
+    left: 5%;
+    margin-top: 20px;
+}
+
+#PopUpLegends_Text img{
+    height: 600px;
+    width: 400px;
+    position: absolute;
+    left: 50%;
+}
+
+#PopUpLegends_Button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#PopUpLegends_Button:hover{
+background-color: red;
+}
+
+#PopUpLegends_Buy{
+    position: absolute;
+    background-color:#f0d8c8;
+    color: black;
+    padding: 15px 60px;
+    border-radius: 5px;
+    font-weight:lighter;
+    cursor: pointer;
+    font-size: 18px; 
+    border: none;
+    margin-top: 50px;
+    transition: transform .3s .3s;
+    top:50% ;
+    left:30% ;
+}
+
+#PopUpLegends_Buy:hover{
+    transform: translateY(-10px);
+}
+
+#PopUpLegends a{
+    position: absolute;
+    color: #f0d8c8;
+    top:70%;
+    left:28%;
+}
+
+#PopUpDungeons{
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1001;
+    justify-content: center;
+}
+
+#PopUpDungeons_Text{
+    background-color: green;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 70%;
+    color: white;   
+}
+
+#PopUpDungeons_Text h1{
+    position: relative;
+    top: -15%;
+    left: 5%;
+}
+
+#PopUpDungeons_Text p{
+    position: relative;
+    top: -14%;
+    left: 5%;
+    margin-top: 20px;
+}
+
+#PopUpDungeons_Text img{
+    height: 600px;
+    width: 400px;
+    position: absolute;
+    left: 50%;
+}
+
+#PopUpDungeons_Button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#PopUpDungeons_Button:hover{
+background-color: red;
+}
+
+#PopUpDungeons_Buy{
+    position: absolute;
+    background-color:#f0d8c8;
+    color: black;
+    padding: 15px 60px;
+    border-radius: 5px;
+    font-weight:lighter;
+    cursor: pointer;
+    font-size: 18px; 
+    border: none;
+    margin-top: 50px;
+    transition: transform .3s .3s;
+    top:50% ;
+    left:30% ;
+}
+
+#PopUpDungeons_Buy:hover{
+    transform: translateY(-10px);
+}
+
+#PopUpDungeons a{
+    position: absolute;
+    color: #f0d8c8;
+    top:70%;
+    left:28%;
+}
+
+#PopUpJavaBedrock{
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1001;
+    justify-content: center;
+}
+
+#PopUpJavaBedrock_Text{
+    background-color: green;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 70%;
+    color: white;
+}
+
+#PopUpJavaBedrock_Text h1{
+    position: relative;
+    top: -15%;
+    left: 5%;
+}
+
+#PopUpJavaBedrock_Text p{
+    position: relative;
+    top: -14%;
+    left: 5%;
+    margin-top: 20px;
+}
+
+#PopUpJavaBedrock_Text img{
+    height: 600px;
+    width: 400px;
+    position: absolute;
+    left: 50%;
+}
+
+#PopUpJavaBedrock_Button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#PopUpJavaBedrock_Button:hover{
+background-color: red;
+}
+
+#PopUpJavaBedrock_Buy{
+    position: absolute;
+    background-color:#f0d8c8;
+    color: black;
+    padding: 15px 60px;
+    border-radius: 5px;
+    font-weight:lighter;
+    cursor: pointer;
+    font-size: 18px; 
+    border: none;
+    margin-top: 50px;
+    transition: transform .3s .3s;
+    top:50% ;
+    left:30% ;
+}
+
+#PopUpJavaBedrock_Buy:hover{
+    transform: translateY(-10px);
+}
+
+#PopUpJavaBedrock a{
+    position: absolute;
+    color: #f0d8c8;
+    top:70%;
+    left:28%;
+}
+
+#Footer{
+    background-color: #dbb092;
+    margin-top: 50px;
+    min-height: 75px;
+    padding-left: 10px;
+    padding-top: 10px;
+   display: block;
+}
+
+#Footer a{
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+    float: left;
+}
+
+#Footer p{
+    float: right;
+    padding-right:10px ;
+}
+

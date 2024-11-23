@@ -6,13 +6,145 @@
     <title>Minecraft</title>
     <link rel="icon" href="/Images/Grass_Block.png">
     <link rel="stylesheet" href="/Rons_style.css">
+    <script src="Rons_script.js"></script>
 </head>
 
 <body>
-<divn id="Nav">
-    <nav>
-        Help Types Creator 
-    </nav>
-</divn>    
+
+    <div id="wrapper">
+       
+        <div id="Nav" class="clearfix">
+            <nav>
+               
+                <div id="Menu">
+                    <a href="HomePage_index.html" target="_blank">HomePage</a>
+                    <a href="/Rons2_index.html">Types</a>
+                    <a href="#Footer">Help</a>
+                </div>
+                
+                <div id="Minecraft_Title">
+                    <a href="Rons_index.html">Minecraft</a>
+                 </div>
+
+                 <div id="Creeper">
+                    <img src="/Images/Creeper_Face.png" width="30">
+                 </div>
+
+            </nav>
+        </div>
+
+        <div id="Banner">
+            <div id="Banner_Text">
+               <h1>Where imagination is your <em>only</em> limit</h1>
+               <a href="/Rons2_index.html">
+                <button id="Banner_Button">EXPLORE</button>
+            </a>
+            </div>
+        </div>
+
+        <div id="Description_Banner">
+            
+            <div id="Description_Image">
+                <img src="/Images/Character.png" alt="Character Image" width="100"/>
+            </div>
+            
+            <div id="Description_Text">
+            Minecraft is a epic sandbox adventure type game with limitless possiblities in which 
+            players can build anything they can imagine.
+            </div>
+        </div>
+
+        <div id="Types" class="clearfix">
+            
+            <div id="Types_Text">
+                <h1>Different types of Minecraft</h1>
+                <p>There are different gamemodes and version's of the game for different platforms which 
+                    focus on 
+                    cross-platform play. The most popular ones are shown to the right.
+                </p>
+                <a href="/Rons2_index.html">
+                    <button id="Types_Button">Shop for Minecraft</button>
+                </a>
+            </div>
+            
+            <div class="Type">
+                <div class="Types_Image">
+                    <img src="/Images/Java_Bedrock.jpeg">
+                    <button id="JavaBedrock_Button" onclick="openPopUpJavaBedrock()">Quick View</button>
+                </div>
+                <h4>Minecraft Java & Bedrock Edition</h4>
+                <p>€29.99</p>
+            </div>
+
+            <div class="Type">
+                <div class="Types_Image">
+                    <img src="/Images/Minecraft_Dungeons.jpeg">
+                    <button id="Dungeons_Button" onclick="openPopUpDungeons()">Quick View</button>
+                </div>
+                <h4>Minecraft Dungeons</h4>
+                <p>€19.99</p>
+            </div>
+            
+            <div class="Type">
+                <div class="Types_Image">
+                    <img src="/Images/Minecraft_Legends.jpeg">
+                    <button id="Legends_Button" onclick="openPopUpLegends()">Quick View</button>
+                </div>
+                <h4>Minecraft Legends</h4>
+                <p>€39.99</p>
+            </div>
+
+            
+
+        </div>
+
+        <div id="PopUpLegends">
+            <button id="PopUpLegends_Button" onclick="closePopUpLegends()">X</button>
+           
+            <div id="PopUpLegends_Text">
+                <img src="/Images/Minecraft_Legends2.jpg">
+                <h1>Minecraft <br> Legends</h1>
+                <p>€39.99</p>
+                <p>Minecraft Legends is the new action strategy game <br> we made in partnership with Blackbird Interactive <br> where you play as the brave hero who unites the <br> inhabitants of the Overworld to fight off a devastating <br> piglin invasion.</p>
+            </div>
+
+            <button id="PopUpLegends_Buy" onclick="location.href='https://www.minecraft.net/en-us/about-legends '">Buy Now</button>
+            <a href="Rons5_index5.html">View Full Page</a>
+        </div>
+
+        <div id="PopUpDungeons">
+            <button id="PopUpDungeons_Button" onclick="closePopUpDungeons()">X</button>
+
+            <div id="PopUpDungeons_Text">
+                <img src="/Images/Minecraft_Dungeons2.jpg">
+                <h1>Minecraft<br>Dungeons</h1>
+                <p>€19.99</p>
+                <p>Fight your way through an all-new action-adventure <br> game, inspired by classic dungeon crawlers and set <br> in the Minecraft universe! Brave the dungeons alone, <br> or team up with friends! </p>
+            </div>
+
+            <button id="PopUpDungeons_Buy" onclick="location.href='https://www.minecraft.net/en-us/about-dungeons'">Buy Now</button>
+            <a href="Rons4_index.html">View Full Page</a>
+        </div>
+
+        <div id="PopUpJavaBedrock">
+            <button id="PopUpJavaBedrock_Button" onclick="closePopUpJavaBedrock()">X</button>
+
+            <div id="PopUpJavaBedrock_Text">
+                <img src="/Images/Minecraft_Java&Bedrock.webp">
+                <h1>Minecract<br>Java and Bedrock</h1>
+                <p>€29.99</p>
+                <p>Create, explore, survive, repeat. Get Minecraft: <br> Java Edition and Bedrock Edition for PC as a <br> package deal. You can easily switch between games <br> using the unified Minecraft launcher and cross-play <br> with any current edition of Minecraft.</p>
+            </div>
+            <button id="PopUpJavaBedrock_Buy" onclick="location.href='https://www.minecraft.net/en-us/store/minecraft-java-bedrock-edition-pc'">Buy Now</button>
+            <a href="Rons3_index.html">View Full Page</a>
+        </div>
+
+        <div id="Footer" class="clearfix">
+            <a href="mailto: g00464215@atu.ie">Contact Us</a>
+            <br>
+            <a href="https://support.microsoft.com/en-IE/contactus" target="_blank">Contact Microsoft</a>
+            <p>&copy; Rons Jose</p>
+        </div>
+    </div>    
 </body>
 </html>
