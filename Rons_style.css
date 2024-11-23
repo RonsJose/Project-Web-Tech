@@ -476,13 +476,22 @@ background-color: red;
 
 #Footer{
     background-color: #dbb092;
-    min-height: 75px;
-    line-height: 75px;
     margin-top: 50px;
+    min-height: 75px;
     padding-left: 10px;
+    padding-top: 10px;
+   display: block;
 }
 
 #Footer a{
     text-decoration: none;
     color: black;
+    text-decoration: underline;
+    float: left;
 }
+
+#Footer p{
+    float: right;
+    padding-right:10px ;
+}
+
