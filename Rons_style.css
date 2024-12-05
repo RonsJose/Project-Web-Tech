@@ -22,7 +22,7 @@
     line-height: 75px;
     position: sticky;
     top: 0;
-    z-index: 1000;
+    z-index: 1000;  
 }
 
 #Nav a{
@@ -142,7 +142,7 @@
     background-position:center;
     min-height: 600px;
     align-items: center;
-}
+}   
 
 #Banner_Text{
     color: white;
@@ -165,7 +165,7 @@
     cursor: pointer;
     transition: transform 0.3s 0.3s; 
 }
-
+    
 #Banner_Button:hover{
 transform: translateY(-10px);
 }

@@ -67,7 +67,7 @@
     max-width: 700px;
     position: absolute;
     top: 30%; 
-    left: .2    5%; 
+    left: .25%; 
     font-size: 35px; 
     text-align: center; 
     text-shadow: 2px 2px 2px rgb(0, 0, 0); 
@@ -146,3 +146,4 @@
     float: right;
     padding-right:10px ;
 }
+
