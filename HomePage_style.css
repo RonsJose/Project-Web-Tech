@@ -72,3 +72,78 @@
     text-align: center; 
     text-shadow: 2px 2px 2px rgb(0, 0, 0); 
 }
+
+#Description_Banner{
+    background-color:black;
+    min-height: 40px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    transition: all 1s ease;
+}
+
+#Description_Image{
+    margin-right: 40px;
+}
+
+#Description_Text{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-style: italic;
+    font-weight: 700;
+}
+
+#games{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    transition: transform 0.3s 0.3s;
+}    
+
+#games a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#games img{
+    width: 300px;
+    height: 500px;
+}
+
+
+.type{
+    text-align: center;
+    margin: 20px;
+    }
+    
+.type:hover{
+    transform: translateY(-10px);
+}
+
+#Footer{
+    background-color: black;
+    margin-top: 50px;
+    min-height: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+   display: block;
+   color: whitesmoke;
+}
+
+#Footer a{
+    text-decoration: none;
+    color: whitesmoke;
+    text-decoration: underline;
+    float: left;
+}
+
+#Footer p{
+    float: right;
+    padding-right:10px ;
+}
+
