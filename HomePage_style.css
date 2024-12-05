@@ -16,15 +16,59 @@
     content:"";
 }
 
-#Top_Bar{
-    width: 100%;
-    min-height: 50px;
-    background-color: white; 
-    line-height: 50px;
+#Nav{
+    background-color: black;
+    min-height: 75px;
+    line-height: 75px;
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
 }
 
-#Nav{
-    background-color: lightgray;
-    min-height: 40px;
-    line-height: 40px;
+#Nav a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+#Menu{
+    float: left;
+    margin-right: 15px;
+    margin-top: 12px;
+}
+
+#Title{
+    display: flex;
+    text-align: center;
+    font-size: 35px; 
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 1.5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#Title a{
+    font-family: 'Courier New', Courier, monospace;
+    color:crimson;
+}
+
+#Banner{
+    background-image: url(/Images/Black_ops_6.webp);
+    background-size: cover;
+    background-position:center;
+    min-height: 600px;
+    align-items: center;
+}   
+
+#Banner_Text{
+    color: white;
+    max-width: 700px;
+    position: absolute;
+    top: 30%; 
+    left: .2    5%; 
+    font-size: 35px; 
+    text-align: center; 
+    text-shadow: 2px 2px 2px rgb(0, 0, 0); 
 }
