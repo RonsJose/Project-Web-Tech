@@ -15,3 +15,121 @@
     display: block;
     content:"";
 }
+
+body{
+    background-color: black;
+}
+
+#Nav{
+    display: flex;
+    position: absolute;
+    top: 3%;
+    left: 2%;
+    align-items: center;
+    justify-content: center;
+}
+
+#Nav p{
+    color: whitesmoke;
+    position: relative;
+    left: 10%;
+    font-size: 30px;
+}
+
+#Menu{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 0%;
+    right: 0%;
+    background-color: black;
+    width: 500px;
+    min-height: 100px;
+}
+
+#Menu img{
+    position: relative;
+    height: 50px;
+    margin-left: 100px;
+    height: 50px;
+    top: -50px;
+}
+
+#Menu a{
+    text-decoration: none;
+    color: whitesmoke;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+#home a{
+color: rgb(196, 72, 196);
+}
+
+#Store{
+    position: absolute;
+    width: 60%;
+    left: 20%;
+    top: 20%;
+}
+
+#Store h1{
+    color: whitesmoke;
+    font-size: 50px;
+}
+
+#Games{
+    position: relative;
+    top: 50px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    transition: transform 0.3s 0.3s;
+}    
+
+#Games a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+#Games .type img {
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+}
+
+
+
+.type{
+    text-align: center;
+    margin: 20px;
+}
+
+.type h3{
+    margin-top: 10px;
+}
+
+.type p{
+    margin-top: 10px;
+}
+
+.Button{
+    margin-top: 10px;
+    background-color:  rgb(196, 72, 196);
+    color: white;
+    padding: 15px 100px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 18px; 
+    border: none;
+}
+
+.Button:hover{
+    background-color: whitesmoke;
+    color:  rgb(196, 72, 196);
+}
