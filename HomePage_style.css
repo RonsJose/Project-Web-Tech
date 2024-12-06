@@ -16,134 +16,58 @@
     content:"";
 }
 
-#Nav{
-    background-color: black;
-    min-height: 75px;
-    line-height: 75px;
-    position: sticky;
-    top: 0;
-    z-index: 1000; 
+#Backround{
+    background-image:url(/Images/Backround.jpg) ;
+    background-size: cover;
+    background-position:center;
+    min-height: 1000px;
+    align-items: center;
+    z-index: -1;
 }
 
-#Nav a{
-    text-decoration: none;
-    color: black;
-    padding: 10px;
+
+#Nav{
+    display: flex;
+    position: absolute;
+    top: 3%;
+    left: 2%;
+    align-items: center;
+    justify-content: center;
+}
+
+#Nav p{
+    color: whitesmoke;
+    position: relative;
+    left: 10%;
+    font-size: 30px;
 }
 
 #Menu{
-    float: left;
-    margin-right: 15px;
-    margin-top: 12px;
-}
-
-#Title{
     display: flex;
-    text-align: center;
-    font-size: 35px; 
-    font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
     position: absolute;
-    top: 1.5%;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-#Title a{
-    font-family: 'Courier New', Courier, monospace;
-    color:crimson;
-}
-
-#Banner{
-    background-image: url(/Images/Black_ops_6.webp);
-    background-size: cover;
-    background-position:center;
-    min-height: 600px;
-    align-items: center;
-}   
-
-#Banner_Text{
-    color: white;
-    max-width: 700px;
-    position: absolute;
-    top: 30%; 
-    left: .25%; 
-    font-size: 35px; 
-    text-align: center; 
-    text-shadow: 2px 2px 2px rgb(0, 0, 0); 
-}
-
-#Description_Banner{
-    background-color:black;
-    min-height: 40px;
-    line-height: 40px;
-    display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 10px;
-    transition: all 1s ease;
-}
-
-#Description_Image{
-    margin-right: 40px;
-}
-
-#Description_Text{
-    text-align: center;
-    font-size: 25px;
-    color: white;
-    font-style: italic;
-    font-weight: 700;
-}
-
-#games{
-    width: 80%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    transition: transform 0.3s 0.3s;
-}    
-
-#games a{
-    text-decoration: none;
-    color: black;
-}
-
-
-#games img{
-    width: 300px;
-    height: 500px;
-}
-
-
-.type{
-    text-align: center;
-    margin: 20px;
-    }
-    
-.type:hover{
-    transform: translateY(-10px);
-}
-
-#Footer{
+    top: 0%;
+    right: 0%;
     background-color: black;
-    margin-top: 50px;
-    min-height: 50px;
-    padding-left: 10px;
-    padding-top: 10px;
-   display: block;
-   color: whitesmoke;
+    width: 500px;
+    min-height: 100px;
 }
 
-#Footer a{
+#Menu img{
+    height: 50px;
+    margin-left: 100px;
+    margin-right: 0px;
+}
+
+#Menu a{
     text-decoration: none;
     color: whitesmoke;
-    text-decoration: underline;
-    float: left;
+    margin-left: 10px;
+    font-size: 18px;
 }
 
-#Footer p{
-    float: right;
-    padding-right:10px ;
+#home a{
+color: rgb(196, 72, 196);
 }
 
