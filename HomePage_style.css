@@ -32,7 +32,7 @@
 }
 
 #Menu{
-    float: left;
+    float: right;
     margin-right: 15px;
     margin-top: 12px;
 }
@@ -45,13 +45,12 @@
     font-family: 'Courier New', Courier, monospace;
     position: absolute;
     top: 1.5%;
-    left: 50%;
-    transform: translateX(-50%);
+    left: .25%;
 }
 
 #Title a{
     font-family: 'Courier New', Courier, monospace;
-    color:crimson;
+    color:orange;
 }
 
 #Banner{
@@ -67,7 +66,7 @@
     max-width: 700px;
     position: absolute;
     top: 30%; 
-    left: .25%; 
+    left: .2    5%; 
     font-size: 35px; 
     text-align: center; 
     text-shadow: 2px 2px 2px rgb(0, 0, 0); 
@@ -146,4 +145,3 @@
     float: right;
     padding-right:10px ;
 }
-
