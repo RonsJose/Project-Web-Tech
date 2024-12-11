@@ -1,6 +1,11 @@
 .heading{
     font-size: 100px;
     font-weight: bold;
+    position: sticky;
+    top:0;
+    width:60%;
+    background-color: rgba(29, 61, 199, 0.493);
+    color:white;
 }
 
 .banner{
@@ -8,4 +13,17 @@
     top: 0;
     left: 0px;
     z-index: 1;
+}
+
+
+
+p{
+    background-color: white;
+    width: 40%;
+}
+
+body{
+    background-image:url(Images/arkbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px 2500px;
 }
