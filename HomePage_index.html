@@ -6,6 +6,7 @@
     <title>Game Zone</title>
     <link rel="icon" href="/Images/Controller.png">
     <link rel="stylesheet" href="/HomePage_style.css">
+    <script src="HomePage_script.js"></script>
 </head>
 
 <body>
@@ -24,13 +25,33 @@
           <div id="home">
             <a href="HomePage_index.html" target="_self">Home</a>
           </div>
-
-          <a href="#" target="_self">About</a>
-          <a href="#" target="_self">Support</a>
-          <a href="#" target="_self">Credits</a>
-          <a href="HomePage2_index.html" target="_self">
+          <a href="HomePage3_index.html" target="_self">About</a>
+          <a href="HomePage4_index.html" target="_self">Support</a>
+          <a href="HomePage5_index.html" target="_self">Credits</a>
+          <div id="SearchImg" onclick = "OpenSearch()" title="Open Search Menu">
+            <img src="/Images/Search.png">
+          </div>
+          <a href="HomePage2_index.html" target="_self" title="Open Games menu">
           <img src="/Images/menu.png">
           </a>
+        </div>
+
+        <div id="Search">
+          <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+          <span id="closebtn" onclick="closeSearch()" title="Close Seach Menu">x</span>
+          <ul id="myMenu">
+            <li><a href="jack.html">ARK</a></li>
+            <li><a href="Rons_index.html">Minecraft</a></li>
+            <li><a href="#">Rainbow 6 Siege</a></li>
+            <li><a href="HomePage2_index.html">Games</a></li>
+            <li><a href="Rons3_index.html">Minecraft Java & Bedrock</a></li>
+            <li><a href="Rons4_index.html">Minecraft Dungeons</a></li>
+            <li><a href="Rons5_index5.html">Minecraft Legends</a></li>
+            <li><a href="Rons6_index.html">Minecraft Education</a></li>
+            <li><a href="HomePage3_index.html">About</a></li>
+            <li><a href="HomePage4_index.html">Support</a></li>
+            <li><a href="HomePage5_index.html">Credits</a></li>
+          </ul>
         </div>
 
         <div id="Center">
