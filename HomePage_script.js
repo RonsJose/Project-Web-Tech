@@ -18,6 +18,10 @@ function myFunction() {
 
   function OpenSearch()
   {
-    
+    document.getElementById("Search").style.display="block";
   }
 
+  function closeSearch()
+  {
+    document.getElementById("Search").style.display="none";
+  }
