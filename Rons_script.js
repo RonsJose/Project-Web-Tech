@@ -21,3 +21,23 @@ function openPopUpJavaBedrock(){
 function closePopUpJavaBedrock(){
     document.getElementById("PopUpJavaBedrock").style.display = "none";
 }
+
+const slideshow = document.querySelector('#Banner_slideshow');
+const slides = document.querySelectorAll('#Banner_slideshow img');
+
+let currentIndex = 0; 
+const totalSlides = slides.length;
+
+
+function updateSlide() {
+  const offset = -currentIndex * 100; 
+  Banner_slideshow.style.transform = `translateX(${offset}%)`;
+}
+
+
+function nextSlide() {
+  currentIndex = (currentIndex + 1) % totalSlides; 
+  updateSlide();
+}
+
+setInterval(nextSlide, 3000); 
