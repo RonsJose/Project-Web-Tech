@@ -71,6 +71,32 @@
 color: rgb(196, 72, 196);
 }
 
+#mySearch {
+    margin-left: 50px;
+    font-size: 18px;
+    padding: 11px;
+    border: 1px solid #ddd;
+  }
+  
+  #myMenu {
+    list-style-type: none;
+    position: absolute;
+    top: 100%;
+    right: 27%;
+    background-color: black;
+  }
+  
+  #myMenu li a {
+    padding: 12px;
+    text-decoration: none;
+    color: whitesmoke;
+    display: block
+  }
+  
+  #myMenu li a:hover {
+    background-color: rgb(196, 72, 196);
+  }
+
 #Center{
     display: flex;
     flex-direction: column;
