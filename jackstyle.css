@@ -27,3 +27,26 @@ body{
     background-repeat: no-repeat;
     background-size: 2000px 2500px;
 }
+
+.dino{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#wiki{
+    text-align: center;
+}
+
+#wiki .container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 52px;
+    flex-wrap: wrap;
+}
+
+#wili .container img{
+width: 30%;
+border-radius: 20px;
+}
