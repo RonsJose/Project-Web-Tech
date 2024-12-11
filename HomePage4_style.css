@@ -65,68 +65,45 @@ body{
 color: rgb(196, 72, 196);
 }
 
-#Store{
+#Support{
     position: absolute;
     width: 60%;
     left: 20%;
     top: 20%;
 }
 
-#Store h1{
+#Support h1{
     color: whitesmoke;
     font-size: 50px;
 }
 
-#Games{
+#Box{
     position: relative;
     top: 50px;
     width: 80%;
     margin: auto;
     display: flex;
     justify-content: center;
+    color: whitesmoke;
 }    
 
-#Games a{
+#Box p{
+    position: relative;
+    top: 200px;
+    left: -10%;
+    font-size: 20px;
+}
+
+#Box img{
+    position: relative;
+    right:-15%;
+    width: 1000px;
+    height: 600px;
+}
+
+#Box a{
     text-decoration: none;
     color: whitesmoke;
+    
 }
 
-
-#Games .type img {
-    width: 300px;
-    height: 500px;
-    object-fit: cover;
-}
-
-
-
-.type{
-    text-align: center;
-    margin: 20px;
-}
-
-.type h3{
-    margin-top: 10px;
-}
-
-.type p{
-    margin-top: 10px;
-}
-
-.Button{
-    margin-top: 10px;
-    background-color:  rgb(196, 72, 196);
-    color: white;
-    padding: 15px 100px;
-    text-decoration: none;
-    border-radius: 30px;
-    font-weight: bold;
-    cursor: pointer;
-    font-size: 18px; 
-    border: none;
-}
-
-.Button:hover{
-    background-color: whitesmoke;
-    color:  rgb(196, 72, 196);
-}
