@@ -44,14 +44,16 @@ body{
     top: 0%;
     right: 0%;
     background-color: black;
-    width: 500px;   
+    width: 500px;
     min-height: 100px;
 }
 
 #Menu img{
     height: 50px;
-    margin-left: 100px;
-    margin-right: 0px;
+}
+
+#Menu img:hover{
+    cursor: pointer;
 }
 
 #Menu a{
@@ -63,6 +65,65 @@ body{
 
 #home a{
 color: rgb(196, 72, 196);
+}
+
+#SearchImg{
+    margin-left: 80px;
+}
+
+#Search{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.9);
+    z-index: 10;
+}
+
+
+#mySearch {
+    position: relative;
+    margin-left: 50px;
+    font-size: 18px;
+    padding: 11px;
+    border: 1px solid #ddd;
+    top: 50%;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+  
+#myMenu {
+    position: relative;
+    top: 50%;
+    list-style-type: none;
+    background-color: black;
+    width: 80%;
+    left: 12.5%;
+}
+  
+#myMenu li a {
+    padding: 12px;
+    text-decoration: none;
+    color: whitesmoke;
+    display: block
+}
+  
+#myMenu li a:hover {
+    background-color: rgb(196, 72, 196);
+}
+
+#closebtn {
+    position: absolute;
+    top: 49%;
+    right: 5%;
+    font-size: 40px;
+    cursor: pointer;
+    color: white;
+}
+  
+#Search #closebtn:hover {
+    color: red;
 }
 
 #About{
