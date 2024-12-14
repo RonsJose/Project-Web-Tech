@@ -1,3 +1,4 @@
+//Search feature
 function myFunction() {
     var input, filter, ul, li, a, i;
     input = document.getElementById("mySearch");
@@ -24,4 +25,26 @@ function myFunction() {
   function closeSearch()
   {
     document.getElementById("Search").style.display="none";
+  }
+
+//Cart feature
+var ark,minecraft,rainbow,total;
+ark=0;
+minecraft=0;
+rainbow=0;
+total=0;
+
+  function AddArk()
+  {
+    ark=+1;
+  }
+
+  function AddMinecraft()
+  {
+    minecraft+=1;
+  }
+
+  function AddRainbow()
+  {
+    rainbow+=1;
   }

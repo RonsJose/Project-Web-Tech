@@ -178,16 +178,34 @@ color: rgb(196, 72, 196);
     margin-top: 10px;
     background-color:  rgb(196, 72, 196);
     color: white;
-    padding: 15px 100px;
+    padding: 5px 50px;
     text-decoration: none;
     border-radius: 30px;
     font-weight: bold;
     cursor: pointer;
-    font-size: 18px; 
+    font-size: 15px; 
     border: none;
 }
 
 .Button:hover{
+    background-color: whitesmoke;
+    color:  rgb(196, 72, 196);
+}
+
+.Cart{
+    margin-top: 10px;
+    background-color:  rgb(196, 72, 196);
+    color: white;
+    padding: 5px 30px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px; 
+    border: none;
+}
+
+.Cart:hover{
     background-color: whitesmoke;
     color:  rgb(196, 72, 196);
 }

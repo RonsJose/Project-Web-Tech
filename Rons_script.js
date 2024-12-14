@@ -1,3 +1,5 @@
+//Popup
+
 function openPopUpLegends(){
     document.getElementById("PopUpLegends").style.display = "flex";
 }
@@ -22,10 +24,12 @@ function closePopUpJavaBedrock(){
     document.getElementById("PopUpJavaBedrock").style.display = "none";
 }
 
+//Slideshow
+
 const slideshow = document.querySelector('#Banner_slideshow');
 const slides = document.querySelectorAll('#Banner_slideshow img');
 
-let currentIndex = 0; 
+var currentIndex = 0; 
 const totalSlides = slides.length;
 
 
