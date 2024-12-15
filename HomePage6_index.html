@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game Zone</title>
     <link rel="icon" href="/Images/Controller.png">
-    <link rel="stylesheet" href="/HomePage3_style.css">
-    <script src="HomePage_script.js"></script>
+    <link rel="stylesheet" href="/HomePage6_style.css">
 </head>
 
 <body>
@@ -52,14 +51,27 @@
             </ul>
           </div>
 
-        <div id="About">
-            <h1>About us</h1>
-            <div id="Box">
-                <p>At Game Zone, we're dedicated to bring you our favorite games and showcase why they're so great. In a simple and easy to navigate manner, so you can fully immerse yourself in experiencing these games.</p>
-                <img src="/Images/about.jpg">
+        <div id="Cart">
+            <h1>My cart</h1>
+            <div class="Box">
+                <img src="/Images/ark.jpg">
+                <h3>ARK</h3> <div class="Row1"><button class="Decrease" onclick="SubArk()">-</button> <input type="text" class="Amount" id="AmountArk" value="0" onchange="TotalArk()"> <button class="Increase" onclick="AddArk()">+</button> <p class="GameTotal">€<span id="ArkTotal">0.00</span></p></div>
+                <p id="Price">€44.99</p>
+            </div>
+            <div class="Box">
+                <img src="/Images/Java_Bedrock.jpeg">
+                <h3>Minecraft</h3> <div class="Row1"><button class="Decrease" onclick="SubMinecraft()">-</button> <input type="text" class="Amount" id="AmountMinecraft" value="0" onchange="TotalMinecraft()"> <button class="Increase" onclick="AddMinecraft()">+</button> <p class="GameTotal">€<span id="MinecraftTotal">0.00</span></p></div>
+                <p id="Price">€30.00</p>
+            </div>
+
+            <div class="Box">
+                <img src="/Images/Rainbow_6.webp">
+                <h3>Rainbow Six Siege</h3> <div id="Row2"><button class="Decrease" onclick="SubRainbow()">-</button> <input type="text" class="Amount" id="AmountRainbow" value="0" onchange="TotalRainbow()"> <button class="Increase" onclick="AddRainbow()">+</button> <p class="GameTotal">€<span id="RainbowTotal">0.00</span></p></div>
+                <p id="Price">€20.00</p>
             </div>
         </div>
 
     </div>
+    <script src="HomePage_script.js"></script>
 </body>
 </html>

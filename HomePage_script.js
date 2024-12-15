@@ -28,23 +28,81 @@ function myFunction() {
   }
 
 //Cart feature
-var ark,minecraft,rainbow,total;
-ark=0;
-minecraft=0;
-rainbow=0;
-total=0;
+
+//Ark
+const ArkPrice=44.99;
+var ArkAmount= document.getElementById("AmountArk");
+const ArkTotal= document.getElementById("ArkTotal");
+ArkAmount.value = 0;
+
+
 
   function AddArk()
   {
-    ark=+1;
+    ArkAmount.value = parseInt(ArkAmount.value) +1;
+    TotalArk();
   }
 
-  function AddMinecraft()
+  function SubArk()
   {
-    minecraft+=1;
+    if(parseInt(ArkAmount.value)>0)
+    {
+      ArkAmount.value = parseInt(ArkAmount.value) -1;
+    }
+    TotalArk();
   }
 
-  function AddRainbow()
+  function TotalArk()
   {
-    rainbow+=1;
+  const currentAmount = parseInt(ArkAmount.value); 
+  const ATotal = (ArkPrice * currentAmount).toFixed(2);
+  document.getElementById("ArkTotal").innerHTML= ATotal; 
   }
+
+//Minecaft
+const MinecraftPrice = 30.00;
+var MinecraftAmount = document.getElementById("AmountMinecraft");
+const MinecraftTotal = document.getElementById("MinecraftTotal");
+MinecraftAmount.value = 0;
+
+function AddMinecraft() {
+  MinecraftAmount.value = parseInt(MinecraftAmount.value) + 1;
+  TotalMinecraft();
+}
+
+function SubMinecraft() {
+  if (parseInt(MinecraftAmount.value) > 0) {
+    MinecraftAmount.value = parseInt(MinecraftAmount.value) - 1;
+  }
+  TotalMinecraft();
+}
+
+function TotalMinecraft() {
+  const currentAmount = parseInt(MinecraftAmount.value);
+  const MTotal = (MinecraftPrice * currentAmount).toFixed(2);
+  document.getElementById("MinecraftTotal").innerHTML = MTotal;
+}
+
+//Rainbow 6 siege
+const RainbowPrice = 20.00;
+var RainbowAmount = document.getElementById("AmountRainbow");
+const RainbowTotal = document.getElementById("RainbowTotal");
+RainbowAmount.value = 0;
+
+function AddRainbow() {
+  RainbowAmount.value = parseInt(RainbowAmount.value) + 1;
+  TotalRainbow();
+}
+
+function SubRainbow() {
+  if (parseInt(RainbowAmount.value) > 0) {
+    RainbowAmount.value = parseInt(RainbowAmount.value) - 1;
+  }
+  TotalRainbow();
+}
+
+function TotalRainbow() {
+  const currentAmount = parseInt(RainbowAmount.value);
+  const RTotal = (RainbowPrice * currentAmount).toFixed(2);
+  document.getElementById("RainbowTotal").innerHTML = RTotal;
+}
