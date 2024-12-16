@@ -27,6 +27,7 @@ function myFunction() {
     document.getElementById("Search").style.display="none";
   }
 
+
 //Cart feature
 
 //Ark
@@ -106,3 +107,5 @@ function TotalRainbow() {
   const RTotal = (RainbowPrice * currentAmount).toFixed(2);
   document.getElementById("RainbowTotal").innerHTML = RTotal;
 }
+
+//Total
