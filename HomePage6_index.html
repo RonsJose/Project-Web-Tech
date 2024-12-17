@@ -53,24 +53,27 @@
 
         <div id="Cart">
             <h1>My cart</h1>
+            <hr>
             <div class="Box">
                 <img src="/Images/ark.jpg">
-                <h3>ARK</h3> <div class="Row1"><button class="Decrease" onclick="SubArk()">-</button> <input type="text" class="Amount" id="AmountArk" value="0" onchange="TotalArk()"> <button class="Increase" onclick="AddArk()">+</button> <p class="GameTotal">€<span id="ArkTotal">0.00</span></p></div>
-                <p id="Price">€44.99</p>
+                <h3>ARK</h3> <div class="Row1"><button class="Decrease" onclick="SubArk()">-</button> <input type="text" class="Amount" id="AmountArk" value="0" onchange="TotalArk()"> <button class="Increase" onclick="AddArk()">+</button></div> <p class="GameTotal">Total: €<span id="ArkTotal">0.00</span></p>
+                <p id="Price"> Each: €44.99</p>
             </div>
             <div class="Box">
                 <img src="/Images/Java_Bedrock.jpeg">
-                <h3>Minecraft</h3> <div class="Row1"><button class="Decrease" onclick="SubMinecraft()">-</button> <input type="text" class="Amount" id="AmountMinecraft" value="0" onchange="TotalMinecraft()"> <button class="Increase" onclick="AddMinecraft()">+</button> <p class="GameTotal">€<span id="MinecraftTotal">0.00</span></p></div>
-                <p id="Price">€30.00</p>
+                <h3>Minecraft</h3> <div class="Row1"><button class="Decrease" onclick="SubMinecraft()">-</button> <input type="text" class="Amount" id="AmountMinecraft" value="0" onchange="TotalMinecraft()"> <button class="Increase" onclick="AddMinecraft()">+</button></div> <p class="GameTotal">Total: €<span id="MinecraftTotal">0.00</span></p>
+                <p id="Price"> Each: €30.00</p>
             </div>
 
             <div class="Box">
                 <img src="/Images/Rainbow_6.webp">
-                <h3>Rainbow Six Siege</h3> <div id="Row2"><button class="Decrease" onclick="SubRainbow()">-</button> <input type="text" class="Amount" id="AmountRainbow" value="0" onchange="TotalRainbow()"> <button class="Increase" onclick="AddRainbow()">+</button> <p class="GameTotal">€<span id="RainbowTotal">0.00</span></p></div>
-                <p id="Price">€20.00</p>
+                <h3>Rainbow Six Siege</h3> <div class="Row1"><button class="Decrease" onclick="SubRainbow()">-</button> <input type="text" class="Amount" id="AmountRainbow" value="0" onchange="TotalRainbow()"> <button class="Increase" onclick="AddRainbow()">+</button></div> <p class="GameTotal">Total: €<span id="RainbowTotal">0.00</span></p>
+                <p id="Price">Each: €20.00</p>
             </div>
-
-            <div id="Total"></div>
+            <hr id="Bottom_Line">
+            <div id="Total_Box">
+              <b><p id="Items"><span id="Total_Items">0</span> Items</p><p id="Total_Cost">€<span id="Total">0.00</span></p></b>
+            </div>
         </div>
 
     </div>
