@@ -1,4 +1,56 @@
 .heading{
     font-size: 100px;
     font-weight: bold;
+    position: sticky;
+    top:0;
+    width:60%;
+    background-color: rgba(29, 61, 199, 0.493);
+    color:white;
+}
+
+.banner{
+    position: sticky;
+    top: 0;
+    left: 0px;
+    z-index: 1;
+}
+
+.picdescript{
+    width: 10%;
+    background-color: black;
+    color: white;
+}
+
+.description{
+    background-color: white;
+    width: 40%;
+}
+
+body{
+    background-image:url(Images/arkbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px 3000px;
+}
+
+#wiki .container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 52px;
+    flex-wrap: wrap;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: space-around;
+    text-align: center;
+}
+
+#desc{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
 }
