@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game Zone</title>
-    <link rel="icon" href="/Controller.png">
+    <link rel="icon" href="/Images/">
     <link rel="stylesheet" href="jackstyle.css">
 </head>
 <body>
@@ -75,10 +75,25 @@
 </div>
     <div class="Types_Image">
         <img src="/Images/arkpurchasepic.jpg">
-        <button id="Purchase_Button" onclick="openPopUpArk()">Purchase</button>
+        <button id="PopUpArk_Button" onclick="openPopUpArk()">Purchase</button>
     </div>
     <h4>Ark Survival Ascended</h4>
     <p>€44.99</p>
 </div>
+
+<div id="PopUpArk">
+    <button id="PopUpArk_Button" onclick="closePopUpArk()">X</button>
+   
+    <div id="PopUpArk_Text">
+        <img src="/Images/arkpurchasepic.jpg">
+        <h1>Minecraft <br> Legends</h1>
+        <p>€39.99</p>
+        <p>Minecraft Legends is the new action strategy game <br> we made in partnership with Blackbird Interactive <br> where you play as the brave hero who unites the <br> inhabitants of the Overworld to fight off a devastating <br> piglin invasion.</p>
+    </div>
+
+    <button id="PopUpArk_Buy" onclick="location.href='https://www.minecraft.net/en-us/about-legends '">Buy Now</button>
+    <a href="Rons5_index5.html">View Full Page</a>
+</div>
+
 </body>
 </html>
