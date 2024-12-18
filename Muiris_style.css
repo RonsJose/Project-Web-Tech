@@ -5,6 +5,9 @@
     box-sizing:border-box ;
 }
 
+body{
+    background-color: black;
+}
 
 #Nav{
     background-color:gray ;
@@ -13,9 +16,10 @@
     text-align: center;
    
 }
-#Menu{
+
+#Nav img{
+    margin-top: 12px;
     float: left;
-    margin-left: 10px;
 }
 
 #intro{
