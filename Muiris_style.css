@@ -1,0 +1,65 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing:border-box ;
+}
+
+
+#Nav{
+    background-color:gray ;
+    min-height: 200Spx;
+    line-height: 60px;
+    text-align: center;
+   
+}
+#Menu{
+    float: left;
+    margin-left: 10px;
+}
+
+#intro{
+    width: 100%;
+    min-height: 100px;
+    background-color: dimgray;
+    padding-left: 2%;
+    line-height: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}  
+
+
+#Selection{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#box1{
+    background-color:gray;
+    margin: 20px;
+}
+
+#box2{
+    background-color:gray;
+    margin: 20px;
+}
+
+
+#box3{
+    background-color:gray;
+    margin: 20px;
+}
+
+#Footer{
+width: 100%;
+position: absolute;
+bottom: -600px;
+background-color: gray;
+}
+
+#wrapper{
+    width: 80%;
+    margin:auto;
+    }
