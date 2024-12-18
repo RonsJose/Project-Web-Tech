@@ -29,7 +29,8 @@
 body{
     background-image:url(Images/arkbackground.jpg);
     background-repeat: no-repeat;
-    background-size: 1500px 3000px;
+    background-size: 100%;
+    background-color: lightblue;
 }
 
 #wiki .container{
